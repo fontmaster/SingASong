@@ -2,6 +2,12 @@ class Song {
 
     public static void main(String[] args) {
 
+        String song = makeSong();
+
+        System.out.println(song);
+    }
+
+    static String makeSong() {
         String song = "There was an old lady who swallowed a fly.\n" +
                 "I don't know why she swallowed a fly - perhaps she'll die!\n" +
                 "\n" +
@@ -42,7 +48,6 @@ class Song {
                 "\n" +
                 "There was an old lady who swallowed a horse...\n" +
                 "...She's dead, of course!";
-
-        System.out.println(song);
+        return song;
     }
 }
